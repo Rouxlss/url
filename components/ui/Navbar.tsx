@@ -12,17 +12,11 @@ export const Navbar: FC = () => {
             width: '100%',
             flexDirection: 'row',
             alignItems: 'center',
-            justifyContent: 'start',
+            justifyContent: 'center',
             padding: '20px 20px',
             backgroundColor: theme?.colors.gray900.value
         }}>
-            <NextLink href='/' passHref >
-                <Link>
-                    <Text>
-                        Create URL
-                    </Text>
-                </Link>
-            </NextLink>
+            <Text>URL SHORTENER</Text>
         </div>
     )
 }

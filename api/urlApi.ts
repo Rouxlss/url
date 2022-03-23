@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const urlApi = axios.create({
-    baseURL: 'http://localhost:4000/api'
+    baseURL: 'https://url-shortener-rouxls.herokuapp.com/api'
 })
 
 export default urlApi;
